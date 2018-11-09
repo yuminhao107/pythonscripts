@@ -52,9 +52,9 @@ def getSequence():
         if now<end_of_lessons[i]:
             id=i+1
             break
-    if id<=5:
+    if id<=4:
         return id,5,False
-    if id<=10:
+    if id<=9:
         return id,10,False
     return id,13,False
 
